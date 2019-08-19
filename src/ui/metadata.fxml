@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<VBox fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.metadataInput.MetadataController">
+   <children>
+      <StackPane prefHeight="38.0" prefWidth="600.0">
+         <children>
+            <Label fx:id="pathLabel" text="Label" />
+            <HBox prefHeight="100.0" prefWidth="200.0" />
+         </children>
+      </StackPane>
+      <HBox prefHeight="430.0" prefWidth="600.0">
+         <children>
+            <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+            <VBox prefHeight="100.0" prefWidth="300.0">
+               <children>
+                  <StackPane prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="testNameField" maxWidth="200.0" prefWidth="200.0" promptText="Nazwa testownika">
+                           <StackPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </StackPane.margin>
+                        </TextField>
+                     </children>
+                  </StackPane>
+                  <StackPane prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="authorsField" maxWidth="200.0" prefWidth="200.0" promptText="Autorzy">
+                           <StackPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </StackPane.margin>
+                        </TextField>
+                     </children>
+                  </StackPane>
+                  <StackPane prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="teacherField" maxWidth="200.0" prefWidth="200.0" promptText="Prowadzacy">
+                           <StackPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </StackPane.margin>
+                        </TextField>
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </StackPane>
+                  <StackPane prefHeight="150.0" prefWidth="200.0" VBox.vgrow="NEVER">
+                     <children>
+                        <ComboBox fx:id="encodingComboBox" prefWidth="200.0" promptText="Kodowanie">
+                           <StackPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </StackPane.margin>
+                        </ComboBox>
+                     </children>
+                  </StackPane>
+               </children>
+            </VBox>
+            <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+            <VBox prefHeight="100.0" prefWidth="300.0">
+               <children>
+                  <StackPane prefHeight="150.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <TextField fx:id="universityField" maxWidth="200.0" prefWidth="200.0" promptText="Nazwa uczelni">
+                           <StackPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </StackPane.margin>
+                        </TextField>
+                     </children>
+                  </StackPane>
+                  <StackPane prefHeight="150.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <TextField fx:id="facultyField" maxWidth="200.0" prefWidth="200.0" promptText="Wydział">
+                           <StackPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </StackPane.margin>
+                        </TextField>
+                     </children>
+                  </StackPane>
+                  <StackPane prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="specializationField" maxWidth="200.0" prefWidth="200.0" promptText="Kierunek">
+                           <StackPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </StackPane.margin>
+                        </TextField>
+                     </children>
+                  </StackPane>
+                  <StackPane prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <ComboBox fx:id="yearComboBox" prefWidth="200.0" promptText="Rok rozpoczęcia" />
+                     </children>
+                  </StackPane>
+               </children>
+            </VBox>
+            <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+         </children>
+      </HBox>
+      <Region prefHeight="220.0" prefWidth="600.0" />
+      <HBox prefHeight="212.0" prefWidth="600.0" VBox.vgrow="NEVER">
+         <children>
+            <StackPane prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#onCancel" text="Anuluj" />
+               </children>
+            </StackPane>
+            <Region prefHeight="37.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+            <StackPane prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#onExport" text="Eksportuj" />
+               </children>
+            </StackPane>
+         </children>
+      </HBox>
+   </children>
+</VBox>

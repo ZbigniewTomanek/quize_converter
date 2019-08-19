@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<VBox fx:id="dragTarget" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onDragDropped="#onDragDropped" onDragOver="#onDragOver" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.main.MainController">
+   <children>
+      <StackPane prefHeight="103.0" prefWidth="600.0">
+         <children>
+            <Label text="Przeciągnij tu folder testownika, albo kliknij przycisk &quot;Dodaj&quot;">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+      <StackPane prefHeight="150.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button fx:id="addTestButton" mnemonicParsing="false" onAction="#onClickAddButton" text="Dodaj" />
+         </children>
+      </StackPane>
+   </children>
+</VBox>

@@ -1,0 +1,7 @@
+QQ11001
+8.	Które współczynniki mogą być wykorzystane do narysowania charakterystyki amplitudowej sygnału?
+	(a) Wielkości współczynników an i bn z trygonometrycznego szeregu Fouriera
+	(b) Wartości współczynnika F0
+	(c) Wartości kątów wyliczone jako arctg (yn/xn)
+	(d) Wartości współczynników wn, omega
+	(e) Wielkość współczynników Fn z wykładniczego szeregu Fouriera

@@ -1,0 +1,7 @@
+QQ00010
+10.	Jak będzie wyglądać transformata Fouriera funkcji f(t)*sin(w0)?
+	(a) TF f(t)*sin(w0) będzie wynosić F(w)*e^(-iw0t)
+	(b) TF f(t)*sin(w0) będzie wynosić (F(w-w0)-F(w+w0))
+	(c) TF f(t)*sin(w0) będzie wynosić F(w)*e^(iw0t)
+	(d) TF f(t)*sin(w0) będzie wynosić 0.5i*(F(w+w0)-F(w-w0))
+	(e) TF f(t)*sin(w0) będzie wynosić 2i*(F(w+w0)-F(w-w0))

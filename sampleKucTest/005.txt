@@ -1,0 +1,7 @@
+QQ00001
+5.	Jaki kąt musimy dodać do wartości fazy - arctg(xn / yn) jeśli współczynnik Fn posiada część rzeczywistą dodatnią i i część urojoną ujemną
+	(a) Należy odjąć wartość pi
+	(b) Musimy odjąć wartość pi/2
+	(c) Musimy dodać wartość pi
+	(d) Musimy dodać wartość pi/2
+	(e) Nie musimy dodać żadnej wartości
