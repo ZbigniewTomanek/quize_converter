@@ -21,6 +21,7 @@ public class Main extends Application {
         window.getIcons().add(new Image(Main.class.getResourceAsStream("icon.png")));
 
         window.setTitle(APP_NAME);
+        window.setResizable(false);
         window.setScene(new Scene(root, WINDOW_WIDTH, WINDOW_HEIGHT));
         window.show();
     }
